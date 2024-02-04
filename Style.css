@@ -1,0 +1,73 @@
+:root{
+    --Cor01: #d1d1d1;
+    --Cor02: #9ac2ca;
+    --Cor03: #51b3c7;
+    --Cor04: #0AA7C8;
+    --Cor05: #076d81;
+    --Cor06: #043944;
+    --Cor07: #010e11;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: -moz-repeating-linear-gradient(to right, var(--Cor04), var(--Cor06));
+}
+.Pag{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, var(--Cor05), var(--Cor01));
+}
+#Home{
+    background-image: linear-gradient(to right, var(--Cor05), var(--Cor01));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header{
+    background-color: #ffffff1c;
+    padding: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.836);
+}
+header a:hover{
+    color: #012b35;
+}
+#Home h1{
+    font-size: 60px;
+    margin: 5%;
+}
+#Home h2{
+    font-size: 50px;
+    margin: 5%;
+}
+#Home button{
+    font-size: 30px;
+    margin: 0% 0% 0% 15%;
+    padding: 2%;
+    border-radius: 100%;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 1%;
+}
+section{
+
+}
+#Sobre_mim{
+    background-image: linear-gradient(to right, var(--Cor05), var(--Cor01));
+}
+#Sobre_mim h1{
+    padding: 10% 2% 2% 2%;
+}
+#Sobre_mim p{
+    font-size: 25px;
+    text-align: left;
+    padding: 2%;
+}
+footer{
+    
+}
